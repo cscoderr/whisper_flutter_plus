@@ -33,14 +33,6 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "2.1.0"
-  ffmpeg_kit_flutter_full_gpl:
-    dependency: transitive
-    description:
-      name: ffmpeg_kit_flutter_full_gpl
-      sha256: ab4c65439a1df22c944672c8bf249efb72b86a7feb4ab4c1fd252ca87adf6d8c
-      url: "https://pub.dev"
-    source: hosted
-    version: "6.0.2"
   ffmpeg_kit_flutter_new:
     dependency: transitive
     description:
