@@ -27,6 +27,7 @@ apply plugin: 'com.android.library'
 android {
     // Bumping the plugin compileSdkVersion requires all clients of this plugin
     // to bump the version in their app.
+    namespace 'com.devac.whisper_flutter_plus'
     compileSdkVersion 31
 
     // Bumping the plugin ndkVersion requires all clients of this plugin to bump
