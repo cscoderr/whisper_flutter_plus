@@ -24,4 +24,9 @@ set_target_properties(whisper_flutter PROPERTIES
 endif (WIN32)
 
 target_compile_definitions(whisper_flutter PUBLIC DART_SHARED_LIB)
+
+if (ANDROID)
+  # Support Android 15 16k page size.
+  target_link_options(whisper_flutter PRIVATE "-Wl,-z,max-page-size=16384")
+endif()
 target_link_libraries(whisper_flutter PRIVATE whisper ggml ${CMAKE_THREAD_LIBS_INIT})
